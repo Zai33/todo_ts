@@ -1,7 +1,7 @@
 import { useState } from "react";
-import type { Task } from "./Typ";
-import TaskInput from "./TaskInput";
-import TaskList from "./TaskList";
+import type { Task } from "./type/Typ";
+import TaskInput from "./components/TaskInput";
+import TaskList from "./components/TaskList";
 
 function App() {
   const [tasks, setTasks] = useState<Task[]>([
